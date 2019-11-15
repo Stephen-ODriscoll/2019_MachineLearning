@@ -474,5 +474,5 @@ Gamma: 0.001
 Gamma: 0.001 achieved average Accuracy: 50.331
 
 Average accuracy for Perceptron: 93.628
-Average accuracy for Linear Kernel: 93.685
-Best average accuracy for RBF Kernel: 96.84299999999999 with Gamma:1e-06
+Average accuracy for SVC(Linear Kernel): 93.685
+Best average accuracy for SVC(RBF Kernel): 96.84299999999999 with Gamma:1e-06

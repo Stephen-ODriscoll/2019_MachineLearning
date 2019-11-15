@@ -122,7 +122,7 @@ def predict_labels(evaluation_data, pos_prob_dict, neg_prob_dict, pos_prior, neg
                 score_negative += log(neg_prob_dict[word])
 
         # Classify review taking account of ratio of positive to negative reviews
-        if score_positive - score_negative > log(pos_prior) - log(neg_prior):
+        if score_positive - score_negative > log(neg_prior) - log(pos_prior):
             prediction.append(1)
         else:
             prediction.append(0)

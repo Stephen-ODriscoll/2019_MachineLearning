@@ -1,0 +1,60 @@
+Reading Data
+
+Performing Regression with Degree 2
+Subset #1
+[-4.46907206e+03 -3.52158807e+03  3.12308384e+03  2.69152029e+04
+  1.34251034e+01  3.33885555e+01 -3.91169033e+01 -8.77304338e+01
+ -3.30592093e+02  5.12505475e+03]
+Subset #2
+[-3.47116064e+03 -1.27228492e+03  1.00367040e+03  2.86330909e+04
+  1.03530550e+01  2.42079717e+00 -7.58180848e+00 -5.77731410e+01
+ -3.67032834e+02  3.93057981e+03]
+Subset #3
+[-4.31205191e+03 -2.70759233e+03  2.52801465e+03  1.08280157e+04
+  6.55637499e+00  3.27790721e+01 -3.51316719e+01 -9.40918443e+01
+ -9.42818664e+01  6.30995293e+03]
+Subset #4
+[-1.21014597e+03 -1.45272992e+03  1.32722810e+03  8.43201941e+03
+  5.07888008e+00  1.44525553e+01 -1.70346704e+01 -3.92060104e+01
+ -1.17869785e+02  7.04266941e+03]
+Subset #5
+[-1.49045259e+03 -4.60039061e+02  4.31278773e+02  5.66996957e+03
+  5.37158616e+00 -1.35257479e+00 -2.90527681e+00 -1.34793596e+02
+  8.51048936e+00  7.54596229e+03]
+
+K-Fold and Visualization
+Subset #1
+	Split #1, Best Degree: 3, Mean Difference: 309.54915008609447
+	Split #2, Best Degree: 3, Mean Difference: 248.13862340500086
+	Split #3, Best Degree: 3, Mean Difference: 300.02117017012324
+	Split #4, Best Degree: 3, Mean Difference: 334.2181772111987
+	Split #5, Best Degree: 3, Mean Difference: 342.58303270632285
+Visualizing predicted vs actual price with degree: 3
+Subset #2
+	Split #1, Best Degree: 3, Mean Difference: 314.7851683809663
+	Split #2, Best Degree: 3, Mean Difference: 333.5856378273465
+	Split #3, Best Degree: 3, Mean Difference: 349.53918825864645
+	Split #4, Best Degree: 3, Mean Difference: 355.23267315470116
+	Split #5, Best Degree: 3, Mean Difference: 326.66985861721565
+Visualizing predicted vs actual price with degree: 3
+Subset #3
+	Split #1, Best Degree: 3, Mean Difference: 282.9201992970168
+	Split #2, Best Degree: 3, Mean Difference: 259.29430945970483
+	Split #3, Best Degree: 2, Mean Difference: 289.4075625890226
+	Split #4, Best Degree: 3, Mean Difference: 226.08703045057266
+	Split #5, Best Degree: 3, Mean Difference: 271.2289622338688
+Visualizing predicted vs actual price with degree: 3
+Subset #4
+	Split #1, Best Degree: 2, Mean Difference: 168.7862371758537
+	Split #2, Best Degree: 3, Mean Difference: 188.08807151103667
+	Split #3, Best Degree: 3, Mean Difference: 185.6915048771588
+	Split #4, Best Degree: 3, Mean Difference: 215.19500531670275
+	Split #5, Best Degree: 2, Mean Difference: 185.05488668828932
+Visualizing predicted vs actual price with degree: 2
+Subset #5
+	Split #1, Best Degree: 2, Mean Difference: 175.8188520032645
+	Split #2, Best Degree: 3, Mean Difference: 159.7309268293442
+	Split #3, Best Degree: 3, Mean Difference: 193.90761112296303
+	Split #4, Best Degree: 3, Mean Difference: 183.10372757340178
+	Split #5, Best Degree: 3, Mean Difference: 218.81993389602957
+Visualizing predicted vs actual price with degree: 3
